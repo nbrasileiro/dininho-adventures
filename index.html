@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Bungee|Nunito:400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/main.css">
+  <title>Dininho-Adventures</title>
+</head>
+<body>
+  <header class="header-dininho">
+    <img class="logo" src="./img/logo.svg" alt="Logo do Dininho Adventures">
+    <img class="dininho" src="./img/dininho.svg" alt="Dininho">
+  </header>
+  <div class="wrapper-contents">
+    <section class="section-dininho">
+      <h1 class="title-dininho">Ajude Dininho, nesta que pode...</h1>
+      <p class="about-dininho">...ser a aventura mais heroica de sua vida! Só mesmo alguém muito maligno poderia ter a frieza de roubar os ovos de uma mamãe dinossauro indefesa e Dininho não pode deixar isso assim. Explore este mundo colorido e perigoso, resgatando todos os bebês indefesos. Mas cuidado, "Ele" estará te esperando ao final de cada estrada. Eu confio em você! Vá e seja o herói da Dinolândia.</p>
+    </section>
+   <hr class="separator-egg-dininho"/>
+
+    <section class="section-dininho -carousel">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-slide-to="10">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="wrapper-video-dininho">
+                <video class="video-dininho" poster="./img/Video2.png">
+                  <source src="./video/trailer.mp4" type="video/mp4">
+                </video>  
+                <div class="play">Play</div>
+              </div> 
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./img/fase2.png" alt="First slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./img/fase3.png" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./img/fase1.png" alt="Third slide">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </section>
+      <section class="section-dininho -video">
+      <div class="wrapper-video-dininho">
+          <video class="video-dininho" poster="./img/Video1.png">
+            <source src="./video/trailer.mp4" type="video/mp4">
+          </video>  
+          <div class="play">Play</div>
+      </div>   
+    </section>
+    <a href="https://store.steampowered.com/app/1230760/Dininho_Adventures" class="button-dininho">
+      <span class="content">Jogar</span>
+    </a>
+    <hr class="separator-egg-dininho"/>
+    <section class="section-dininho">
+      <h2 class="subtitle-dininho">Jogo Tem</h2>
+      <ul class="list-dininho">
+        <li class="item">- Assuma o controle de Dininho nessa clássica aventura em plataformas, superando os obstáculos para entregar os ovos ao ninho.</li>
+        <li class="item">- Campanha principal com 4 mundos distintos com suas próprias características e desafios.</li>
+        <li class="item">- Mundo especial desbloqueável para os melhores exploradores.</li>
+        <li class="item">- Temporizador dentro do jogo (Speedrunners <3).</li>
+        <li class="item">- Ranking de melhores tempos em cada fase entre seus amigos da Steam!</li>
+      </ul>
+    </section>
+    <hr class="separator-egg-dininho"/>
+    <section class="section-dininho">
+      <h2 class="subtitle-dininho">Requisitos</h2>
+      <dl class="list-dininho">
+        <dd class="item -resources">
+          <strong>SO:</strong> Windows 7, 8/8.1, 10</dd>
+        <dd class="item -resources">
+          <strong>Processador:</strong> 2.0 Ghz
+        </dd>
+        <dd class="item -resources">
+          <strong>Memória:</strong> 2.5 GB de RAM
+        </dd>
+        <dd class="item -resources">
+          <strong>Placa de vídeo:</strong> 128mb Video Memory
+        </dd>
+        <dd class="item -resources">
+          <strong>DirectX:</strong> Versão 9.0
+        </dd>
+        <dd class="item -resources">
+          <strong>Armazenamento:</strong> 400 MB de espaço disponível
+        </dd>
+      </dl>
+    </section>
+    <hr class="separator-egg-dininho -big">
+    <footer class="footer-dininho">
+      <p class="copyright-dininho">Dininho Adventures Copyright @ 2020 - 2020</p>
+      <ul class="wrapper-social-media">
+        <li class="item">
+          <a class="social-media" href="https://twitch.tv/dininho">
+            Twitch do Dininho
+          </a>
+        </li>
+        <li class="item">
+          <a class="social-media" href="https://twitter.com/dinobonoide">
+            Twitter do Dininho
+          </a>
+        </li>
+        <li class="item">
+          <a class="social-media" href="https://discordapp.com/invite/96hejEn">
+            Facebook do Dininho
+          </a>
+        </li>
+      </ul>
+    </footer>
+  </div>
+  <div class="key" visibility="false"></div>
+  <div class="black-background" visibility="false"></div>    
+  
+  <script src="./js/components/video.js"></script>
+  <script src="./js/components/eggs.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <!-- <script src="./js/components/carousel.js"></script> -->
+</body>
+</html>

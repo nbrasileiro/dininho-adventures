@@ -1,0 +1,16 @@
+.wrapper-contents {
+  background-image: linear-gradient(181.15deg, #7E5002 20.16%, #E69405 36.19%, #FAD121 98.57%);
+  background-repeat: no-repeat;
+}
+
+.wrapper-contents > .section-dininho {
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wrapper-contents > .separator-egg-dininho {
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}

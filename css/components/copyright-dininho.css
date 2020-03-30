@@ -1,0 +1,9 @@
+.copyright-dininho {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  color: #050914;
+  text-align: center;
+  margin-bottom: var(--gap-smaller);
+}

@@ -1,0 +1,32 @@
+  
+.button-dininho {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../../img/Btn.png');
+  background-size: 100%;
+  width: 196px;
+  height: 50px;
+  color: #FAFFFF;
+  text-decoration: none;
+  margin: var(--gap-medium) auto;
+  font-size: 20px;
+  transition: transform 100ms linear;
+  
+}
+
+.button-dininho:hover {
+  transform: scale(1.05);
+}
+
+.button-dininho > .content {
+  transform: translateY(-2px);
+}
+
+@media (min-width: 600px) {
+  .button-dininho {
+    width: 320px;
+    height: 81px;
+    font-size: 30px;
+  }
+}

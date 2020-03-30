@@ -1,0 +1,43 @@
+.header-dininho {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  min-height: 272px;
+  height: 42%;
+  min-height: 275px;
+  background: url('../../img/floor.svg') bottom center / auto 180px repeat no-repeat,
+              url('../../img/mountain1.svg') bottom center / contain no-repeat,
+              url('../../img/mountain2.svg') bottom center / contain no-repeat,
+              url('../../img/sky.svg') top center / contain no-repeat #b5e4e3;
+}
+
+
+.header-dininho > .logo {
+  position: absolute;
+  top: var(--gap-medium);
+  min-width: 250px;
+  max-width: 500px;
+  width: 70%;
+  max-width: 290px;
+}
+
+.header-dininho > .dininho {
+  position: absolute;
+  bottom: calc(var(--gap-big) + 60px);
+  width: 30px;
+}
+
+
+@media (min-width: 600px) {
+  .header-dininho {
+    height: 70%;
+  }
+  .header-dininho > .dininho {
+    width: 50px;
+    bottom: calc(var(--gap-big) + 40px);
+  }
+
+  .header-dininho > .logo {
+    max-width: fit-content;
+  }
+}

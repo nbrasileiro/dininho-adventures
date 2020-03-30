@@ -1,0 +1,62 @@
+.separator-egg-dininho {
+  --half-width-egg: 11px;
+  --half-width-eggs: 30px;
+
+  background-image: url('../../img/egg.svg');
+  background-size: auto 22px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  height: 22px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: var(--gap-medium);
+  margin-bottom: var(--gap-medium);
+  cursor: pointer;
+}
+
+.separator-egg-dininho.-big{
+  background-image: url('../../img/eggs.svg');
+  background-size: auto 63px;
+  height: 60px;
+}
+.separator-egg-dininho::before,
+.separator-egg-dininho::after {
+  content: '';
+  width: calc(50% - var(--half-width-egg) - var(--gap-very-small));
+  background-color:#FAFFFF;   
+  height: 3px;
+}
+
+
+.separator-egg-dininho.-big::before,
+.separator-egg-dininho.-big::after {
+  width: calc(50% - var(--half-width-eggs) - var(--gap-very-small));
+}
+
+.separator-egg-dininho::before { 
+  border-radius: 0 2px 2px 0;
+  
+}
+
+.separator-egg-dininho::after {
+  border-radius: 2px 0 0 2px;
+  
+}
+
+@media (min-width: 600px) {
+  .separator-egg-dininho {
+    --half-width-egg: 22px;
+    --half-width-eggs: 35px;
+
+    height: 44px;
+    background-size: auto 44px;
+  }
+
+  .separator-egg-dininho.-big {
+    background-size: 100px auto;
+    height: 100px;
+  }
+}

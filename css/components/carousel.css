@@ -1,0 +1,13 @@
+.carousel-inner {
+    max-height: 500px;
+}
+.section-dininho.-carousel{
+    display: none;
+}
+
+
+@media (min-width: 600px) {
+    .section-dininho.-carousel{
+      display: block;
+    }
+}
